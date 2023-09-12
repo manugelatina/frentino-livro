@@ -1,0 +1,84 @@
+body {
+    /* cor de fundo do site */
+    background-color: rgba(185, 245, 245, 0.589);
+    /* tipo fonte do nosso site*/
+    font-family: Arial, sans-serif;
+    /* tamanho da fonte */
+    font-size: 16px;
+}
+
+img {
+    width: 700px;
+    /* Garante que a imagem não seja maior do que o seu contêiner */
+    max-width: 100%;
+    /* Centraliza a imagem horizontalmente */
+    margin: 0 auto;
+    /* Remove espaços indesejados abaixo da imagem */
+    display: block;
+    text-align: center;
+
+}
+
+nav {
+    background-color: rgb(112, 192, 238);
+    text-align: center;
+    margin: 0px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 90px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+nav a:hover {
+    color: black;
+}
+
+header {
+    /* cor de fundo */
+    background-color: rgb(111, 194, 194);
+    /* cor do texto */
+    color: #050505;
+    /* alinhamento do texto */
+    text-align: center;
+    /* preenchimento */
+    padding: 15px;
+}
+
+.imagem {
+    display: flex;
+
+}
+
+footer {
+    /* cor de fundo */
+    background-color: rgb(111, 194, 194);
+    /* cor do texto */
+    color: #050505;
+    /* alinhamento do texto */
+    text-align: center;
+    /* preenchimento */
+    padding: 15px;
+}
+
+a:hover {
+    /* Alterar a cor do texto quando o mouse estiver sobre o link */
+    color: #009688;
+}
+
+a {
+    /* Adicionar uma transição suave à cor do texto */
+    transition: color 0.3s ease;
+}
