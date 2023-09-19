@@ -1,19 +1,13 @@
 body {
-    /* cor de fundo do site */
     background-color: rgba(185, 245, 245, 0.589);
-    /* tipo fonte do nosso site*/
     font-family: Arial, sans-serif;
-    /* tamanho da fonte */
     font-size: 16px;
 }
 
 img {
     width: 700px;
-    /* Garante que a imagem não seja maior do que o seu contêiner */
     max-width: 100%;
-    /* Centraliza a imagem horizontalmente */
     margin: 0 auto;
-    /* Remove espaços indesejados abaixo da imagem */
     display: block;
     text-align: center;
 
@@ -47,13 +41,9 @@ nav a:hover {
 }
 
 header {
-    /* cor de fundo */
     background-color: rgb(111, 194, 194);
-    /* cor do texto */
     color: #050505;
-    /* alinhamento do texto */
     text-align: center;
-    /* preenchimento */
     padding: 15px;
 }
 
@@ -63,22 +53,35 @@ header {
 }
 
 footer {
-    /* cor de fundo */
     background-color: rgb(111, 194, 194);
-    /* cor do texto */
     color: #050505;
-    /* alinhamento do texto */
     text-align: center;
-    /* preenchimento */
     padding: 15px;
 }
 
 a:hover {
-    /* Alterar a cor do texto quando o mouse estiver sobre o link */
     color: #009688;
 }
 
 a {
-    /* Adicionar uma transição suave à cor do texto */
     transition: color 0.3s ease;
+}
+
+.sobre-titulo {
+    font-size: 32px;
+    color: darkblue;
+    margin-bottom: 20px;
+}
+
+.sobre-texto{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 2.0;
+    margin-top: 10px;
+}
+
+.sobre-lista{
+    list-style:circle;
+    padding-left: 0;
+    margin-top: 15px;
 }
