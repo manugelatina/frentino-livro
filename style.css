@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(185, 245, 245, 0.589);
+    background-color: rgba(185, 231, 245, 0.589);
     font-family: Arial, sans-serif;
     font-size: 16px;
 }
@@ -41,7 +41,7 @@ nav a:hover {
 }
 
 header {
-    background-color: rgb(111, 194, 194);
+    background-color: rgb(111, 171, 194);
     color: #050505;
     text-align: center;
     padding: 15px;
@@ -53,14 +53,14 @@ header {
 }
 
 footer {
-    background-color: rgb(111, 194, 194);
+    background-color: rgb(111, 161, 194);
     color: #050505;
     text-align: center;
     padding: 15px;
 }
 
 a:hover {
-    color: #009688;
+    color: #006b96;
 }
 
 a {
